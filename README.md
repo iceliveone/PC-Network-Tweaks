@@ -1,26 +1,67 @@
-# Netzwerk-Tweaks Toolkit (Batch-Version)
+🔒 Sicherheit
 
-## Beschreibung
-Dieses Toolkit bietet Netzwerkoptimierungen für Windows-PCs als Batch-Datei. Enthalten sind DNS-Flush, IP-Renew, Adapter-Neustart, TCP/IP-Reset, Winsock-Reset und MTU-Anpassung.
+Keine externen Module notwendig
 
-## Auto-Update
-Die Batch-Datei prüft beim Start automatisch, ob eine neue Version auf GitHub verfügbar ist, und aktualisiert sich selbst.
+Keine dauerhafte Registry-Manipulation ohne vorherige Nachfrage
 
-## Nutzung
-1. Lade die Datei herunter.
-2. Führe sie als Administrator aus.
-3. Wähle im Menü die gewünschte Option.
+Vollständig lokal / Open Source
 
-## Funktionen
-- DNS-Cache leeren
-- IP-Adresse erneuern
-- Netzwerkadapter neu starten
-- TCP/IP-Stack zurücksetzen
-- Winsock zurücksetzen
-- MTU-Wert anpassen
+Verwendet nur integrierte Windows-APIs
 
-## GitHub-Link
-[Repository anzeigen](https://github.com/iceliveone/PC-Network-Tweaks)
+📜 Changelog
+v1.5.0 – Hybrid-Launcher Release (NEU)
 
-## Lizenz
-MIT License
+🚀 Hinzugefügt: Batch-Hybrid-Starter (Admin-Check, PS-Check, Update-Check)
+
+🔄 Auto-Update über GitHub implementiert
+
+🧹 Code-Cleanup & Fehlerbehebungen
+
+📦 Neue Dateistruktur für GitHub optimiert
+
+🎨 Titel & Shell-UI verbessert
+
+🔐 Startet PowerShell mit ExecutionPolicy Bypass
+
+v1.4.0 – Netzwerkmodule erweitert
+
+Optimierte TCP-Tweaks
+
+Verbessertes Delay-Handling für Adapter
+
+Optionale Jumbo-Frames-Erkennung
+
+Diagnose erweitert (DNS-Cache, Adapterstatus)
+
+v1.3.0 – Fehlerbehebungen
+
+Bugfix: Reset-Funktionen blockierten unter Win11 gelegentlich
+
+Logdatei-Ausgabe korrigiert
+
+Code kleiner & schneller durch Refactoring
+
+v1.2.0 – GUI-Shell verbessert
+
+Bessere Konsolenfarben
+
+Menü umsortiert
+
+Kleinere Layout-Verbesserungen
+
+v1.0.0 – Initial Release
+
+Erstes vollständiges Toolkit
+
+Netzwerk-Optimierungen integriert
+
+Über 15 Tweaks & Diagnosefunktionen
+
+🤝 Mitwirken
+
+Issues, Requests und Verbesserungen sind willkommen!
+Pull Requests können jederzeit eingereicht werden.
+
+📜 Lizenz
+
+Dieses Projekt ist unter der MIT License lizenziert.
